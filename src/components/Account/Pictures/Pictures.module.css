@@ -1,0 +1,45 @@
+.bgc {
+   background: linear-gradient(45deg, #dd5f0c, #0c9adb);
+}
+
+.pictures {
+   display: grid;
+   row-gap: 60px;
+   column-gap: 60px;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding: 40px 10px 100px 10px;
+}
+
+.ava {
+   margin-left: 90px;
+   background: linear-gradient(45deg, #272524, #0c9adb);
+   border: 1px solid rgba(0, 0, 0, 0.8);
+   padding: 20px;
+   font-size: 30px;
+   text-align: center;
+}
+
+.ava img {
+   margin-top: 20px;
+   width: 96px;
+   height: 96px;
+}
+
+.ava:hover {
+   border: 1px solid #0cdd4b;
+   background: linear-gradient(45deg, #440cdd, #131020);
+}
+
+.ava:active {
+   border: 1px solid #390cdd;
+   background: linear-gradient(45deg, #e70d0de1, #a20ee7);
+}
+
+
+.btn {
+   margin-left: 110px;
+   margin-bottom: 50px;   
+   width: 65px;
+   height: 25px;
+   background: linear-gradient(45deg, #8860f8, #d31c1c);   
+}

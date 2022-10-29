@@ -1,0 +1,83 @@
+.restaurants__item {
+   width: 347px;
+   border-radius: 16px;
+   border: 1px solid #EDEEF2;
+   padding-bottom: 16px;
+}
+
+.restaurants__item_info {
+   margin-left: 16px;
+}
+
+.restaurants__info_box {
+   width: 318px;
+   height: 46px;
+}
+
+.restaurants__item_img {
+   position: relative;
+}
+
+.restaurants__item_icon {
+   position: absolute;
+   margin-top: -166px;
+   margin-left: 256px;
+   /* display: none; */
+}
+
+.restaurants__name {
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 24px;
+   letter-spacing: 0.1px;
+   color: #2B2B43;
+   margin-top: 16px;
+}
+
+.clock {
+   width: 12px;
+   height: 12px;
+   margin-bottom: -2px;
+}
+
+.restaurants__info_ellipse {
+   width: 3px;
+   width: 3px;
+   margin-left: 5px;
+}
+
+.restaurants__info_text_1,
+.restaurants__info_text_2 {
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 16px;
+   color: #83859C;
+}
+
+.restaurants__info_text_1,
+.restaurants__info_text_2{
+   margin-left: 5px;
+}
+
+.restaurants__food_item_icon {
+   float: right;
+   margin-top: -40px;
+}
+
+.restaurants__food_item_icon:hover {
+   width: 30px;
+   height: 30px;
+}
+.restaurants__food_item_icon:active {
+   border:1px solid #2B2B43;
+   background-color: rgb(15, 15, 22);
+}
+
+.restaurants__food_item {
+   display: flex;
+   justify-content: flex-start;
+   margin-top: 7px;
+}
+
+
+
